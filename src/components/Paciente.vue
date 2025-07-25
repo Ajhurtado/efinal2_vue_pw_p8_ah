@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { guardarFachada} from "../clients/ConsumirApi.js";
+import { guardarPacienteFachada} from "../clients/ConsumirApi.js";
 
 export default {
  data() {
@@ -65,7 +65,7 @@ export default {
         apellido: this.paciente.apellido,
         fechaNacimiento: this.paciente.fechaNacimiento,
       }
-      await guardarFachada(pacienteToBody);
+      await guardarPacienteFachada(pacienteToBody);
       this.mostrarMensaje("Paciente guardado correctamente");
      this.limpiar();
     },

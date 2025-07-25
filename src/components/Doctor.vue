@@ -77,7 +77,6 @@ export default {
 </script>
 
 <style>
-/* Puedes usar este estilo en Doctor.vue y Paciente.vue */
 .contenedor-doctor {
   max-width: 400px;
   margin: 40px auto;
