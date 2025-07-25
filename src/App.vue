@@ -6,16 +6,16 @@ import PacienteView from '@/views/PacienteView.vue'
 </script>
 
 <template>
-
   <header>
     <div class="wrapper">
       <nav>
+        <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/doctor">DoctorView</RouterLink>
         <RouterLink to="/paciente">PacienteView</RouterLink>
       </nav>
     </div>
   </header>
-
+  <RouterView />
 </template>
 
 <style scoped>

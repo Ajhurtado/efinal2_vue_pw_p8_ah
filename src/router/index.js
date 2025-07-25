@@ -4,6 +4,7 @@ import DoctorView from '../views/DoctorView.vue'
 import PacienteView from '../views/PacienteView.vue'
 
 const routes = [
+  { path: '/', component: HomeView },
   { path: '/doctor', component: DoctorView },
   { path: '/paciente', component: PacienteView }
 ]
@@ -13,7 +14,4 @@ const router = createRouter({
   routes
 })
 
-
-
 export default router
-
